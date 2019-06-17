@@ -39,7 +39,7 @@ public class Ensure extends JFrame {
 		lblNewLabel.setBounds(80, 54, 284, 45);
 		contentPane.add(lblNewLabel);
 		
-		JLabel lblcschoolmanagesys = new JLabel("文件路径为：C:/SchoolManageSys\r\n");
+		JLabel lblcschoolmanagesys = new JLabel("文件路径为：C:/SchoolManageSys\r\n");//这里路径应该是动态的，为了省脑子，直接写死了
 		lblcschoolmanagesys.setForeground(Color.RED);
 		lblcschoolmanagesys.setFont(new Font("Microsoft YaHei UI", Font.PLAIN, 16));
 		lblcschoolmanagesys.setHorizontalAlignment(SwingConstants.CENTER);
